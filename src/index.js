@@ -20,6 +20,8 @@ export default {
             "/carrd":    "https://mrezaei.carrd.co",
             "/cv":       "https://docs.google.com/document/d/1qcympA-Sd46dEl01L2bKfYl7a7raI9-anosdQvK3lWk/edit?tab=t.3lk1ukcllr8a#heading=h.v15sl87w4bmh",
             "/resume":   "https://docs.google.com/document/d/1qcympA-Sd46dEl01L2bKfYl7a7raI9-anosdQvK3lWk/edit?tab=t.3lk1ukcllr8a#heading=h.v15sl87w4bmh",
+            "/cv-fa":    "https://docs.google.com/document/d/1qcympA-Sd46dEl01L2bKfYl7a7raI9-anosdQvK3lWk/edit?tab=t.0#heading=h.v15sl87w4bmh",
+            "/resume-fa":   "https://docs.google.com/document/d/1qcympA-Sd46dEl01L2bKfYl7a7raI9-anosdQvK3lWk/edit?tab=t.0#heading=h.v15sl87w4bmh",
 
             // ------------------------------------------
             // Portfolio & Work
@@ -81,6 +83,8 @@ export default {
             "/twitch":   "https://www.twitch.tv/mreza_rezaei",
             "/pt":       "https://www.pinterest.com/mreza_rezaei",
             "/pinterest": "https://www.pinterest.com/mreza_rezaei",
+            "/bale":     "https://t.me/mreza_rezaei",
+            "/ble":      "https://t.me/mreza_rezaei",
 
             // ------------------------------------------
             // Gaming Profiles
