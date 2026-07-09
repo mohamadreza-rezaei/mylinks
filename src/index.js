@@ -79,6 +79,8 @@ export default {
             "/discord":  "https://discord.com/invite/b9YRxPv2F",
             "/tv":       "https://www.twitch.tv/mreza_rezaei",
             "/twitch":   "https://www.twitch.tv/mreza_rezaei",
+            "/pt":       "https://www.pinterest.com/mreza_rezaei",
+            "/pinterest": "https://www.pinterest.com/mreza_rezaei",
 
             // ------------------------------------------
             // Gaming Profiles
