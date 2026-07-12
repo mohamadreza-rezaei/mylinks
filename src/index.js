@@ -33,6 +33,8 @@ export default {
             "/office":   "https://nshn.ir/03_bv1AxYxuPcT",
             "/lt":       "https://linktr.ee/mreza_rezaei",
             "/linktree": "https://linktr.ee/mreza_rezaei",
+            "/kioar":    "https://kioar.com/mreza-rezaei",
+            "/qr":       "https://kioar.com/mreza-rezaei",
 
             // ------------------------------------------
             // Developer Profiles
@@ -107,6 +109,12 @@ export default {
             "/vid":      "https://youtu.be/nlBRf1f6HCo?si=k4GaUaGY6JBDL2M-",
             "/video":    "https://youtu.be/nlBRf1f6HCo?si=k4GaUaGY6JBDL2M-",
             "/bike":     "https://youtu.be/nlBRf1f6HCo?si=k4GaUaGY6JBDL2M-",
+
+            // ------------------------------------------
+            // Courses
+            // ------------------------------------------
+            "/laravel":    "https://toplearn.com/courses/web/%D8%AF%D9%88%D8%B1%D9%87-%D8%AC%D8%A7%D9%85%D8%B9-%D8%A2%D9%85%D9%88%D8%B2%D8%B4-laravel",
+            "/react":      "https://toplearn.com/courses/web-design/%D8%A2%D9%85%D9%88%D8%B2%D8%B4-%D8%B5%D9%81%D8%B1-%D8%AA%D8%A7-%D8%B5%D8%AF-reactjs",
         };
 
         const destination = redirects[path] || redirects[""];
