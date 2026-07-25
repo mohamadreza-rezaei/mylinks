@@ -26,9 +26,10 @@ export default {
             // ------------------------------------------
             // Portfolio & Work
             // ------------------------------------------
-            "/web":      "https://my-portfolio-nextjs-3le.pages.dev/",
-            "/port":     "https://my-portfolio-nextjs-3le.pages.dev/",
-            "/site":     "https://my-portfolio-nextjs-3le.pages.dev/",
+            // "/web":      "https://my-portfolio-nextjs-3le.pages.dev/",
+            "/web":      "https://mohamadreza.id.ir/",
+            "/port":     "https://mohamadreza.id.ir/",
+            "/site":     "https://mohamadreza.id.ir/",
             "/work":     "https://nshn.ir/03_bv1AxYxuPcT",
             "/office":   "https://nshn.ir/03_bv1AxYxuPcT",
             "/lt":       "https://linktr.ee/mreza_rezaei",
