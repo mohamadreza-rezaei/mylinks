@@ -26,11 +26,12 @@ export default {
             // ------------------------------------------
             // Portfolio & Work
             // ------------------------------------------
-            // "/web":      "https://my-portfolio-nextjs-3le.pages.dev/",
             "/web":      "https://mohamadreza.id.ir/",
             "/port":     "https://mohamadreza.id.ir/",
             "/site":     "https://mohamadreza.id.ir/",
-            "/work":     "https://nshn.ir/03_bv1AxYxuPcT",
+            "/work":     "https://builtly.ir",
+            "/builtly":  "https://builtly.ir",
+            "/bl":       "https://builtly.ir",
             "/office":   "https://nshn.ir/03_bv1AxYxuPcT",
             "/lt":       "https://linktr.ee/mreza_rezaei",
             "/linktree": "https://linktr.ee/mreza_rezaei",
