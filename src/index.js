@@ -121,7 +121,7 @@ export default {
             // ------------------------------------------
             // Featured Github Projects
             // ------------------------------------------
-            "/gh/ai-lab-pro":     "https://github.com/mohamadreza-rezaei/ai-lab-pro",
+            "/gh-ai-lab-pro":     "https://github.com/mohamadreza-rezaei/ai-lab-pro",
         };
 
         const destination = redirects[path] || redirects[""];
