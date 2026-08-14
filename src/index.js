@@ -32,6 +32,8 @@ export default {
             "/work":     "https://builtly.ir",
             "/builtly":  "https://builtly.ir",
             "/bl":       "https://builtly.ir",
+            "/crushd":   "https://crushd.ir",
+            "/date":     "https://crushd.ir",
             "/office":   "https://nshn.ir/03_bv1AxYxuPcT",
             "/lt":       "https://linktr.ee/mreza_rezaei",
             "/linktree": "https://linktr.ee/mreza_rezaei",
@@ -122,6 +124,11 @@ export default {
             // Featured Github Projects
             // ------------------------------------------
             "/gh-ai-lab-pro":     "https://github.com/mohamadreza-rezaei/ai-lab-pro",
+
+            // ------------------------------------------
+            // Roadmaps
+            // ------------------------------------------
+            "/mentoring":     "https://atlas.mindmup.com/-d7b7ru/",
         };
 
         const destination = redirects[path] || redirects[""];
