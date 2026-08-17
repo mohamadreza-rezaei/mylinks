@@ -129,6 +129,12 @@ export default {
             // Roadmaps
             // ------------------------------------------
             "/mentoring":     "https://atlas.mindmup.com/-d7b7ru/",
+
+            // ------------------------------------------
+            // Demo
+            // ------------------------------------------
+            "/ailab":     "https://ai-lab-pro.pages.dev/",
+            "/dev":     "https://dev-survival-guide.pages.dev/",
         };
 
         const destination = redirects[path] || redirects[""];
