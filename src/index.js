@@ -128,7 +128,7 @@ export default {
             // ------------------------------------------
             // Roadmaps
             // ------------------------------------------
-            "/mentoring":     "https://atlas.mindmup.com/-d7b7ru/",
+            "/mentoring":     "https://atlas.mindmup.com/mentoring/",
 
             // ------------------------------------------
             // Demo
