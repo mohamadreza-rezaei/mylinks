@@ -135,6 +135,7 @@ export default {
             // ------------------------------------------
             "/ailab":     "https://ai-lab-pro.pages.dev/",
             "/dev":     "https://dev-survival-guide.pages.dev/",
+            "/nitro":     "https://nitro.mreza-rezaei.workers.dev/",
         };
 
         const destination = redirects[path] || redirects[""];
