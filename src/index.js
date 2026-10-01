@@ -32,8 +32,8 @@ export default {
             "/work":     "https://builtly.ir",
             "/builtly":  "https://builtly.ir",
             "/bl":       "https://builtly.ir",
-            "/crushd":   "https://crushd.mreza-rezaei.workers.dev",
-            "/date":   "https://crushd.mreza-rezaei.workers.dev",
+            "/crushd":   "https://crushd.ir",
+            "/date":   "https://crushd.ir",
             "/office":   "https://nshn.ir/03_bv1AxYxuPcT",
             "/lt":       "https://linktr.ee/mreza_rezaei",
             "/linktree": "https://linktr.ee/mreza_rezaei",
@@ -133,9 +133,11 @@ export default {
             // ------------------------------------------
             // Demo
             // ------------------------------------------
-            "/ailab":     "https://ai-lab-pro.pages.dev/",
-            "/dev":     "https://dev-survival-guide.pages.dev/",
-            "/nitro":     "https://nitro.mreza-rezaei.workers.dev/",
+            "/ailab":     "https://ailab.looply.one/",
+            "/dev":     "https://dev.builtly.ir/",
+            "/nitro":     "https://nitro.builtly.ir/",
+            "/ai":     "https://aiarsenal.ir/",
+            "/looply":     "https://looply.one/",
         };
 
         const destination = redirects[path] || redirects[""];
