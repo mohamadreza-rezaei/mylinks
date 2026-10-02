@@ -149,6 +149,12 @@ export default {
             "/chatgpt":     "https://chatgpt.com/u/mreza_rezaei",
             "/cur":      "https://cursor.com/@mrezaei",
             "/cursor":   "https://cursor.com/@mrezaei",
+
+            // ------------------------------------------
+            // Hiring & Jobs
+            // ------------------------------------------
+            "/hiring-en":   "https://docs.google.com/document/d/15V5s-SglLzbtb_fWVumycUl4WmzgvQyI0cOcaErqbQg/edit?tab=t.1oo6bt8n8zi4",
+            "/hiring-fa":   "https://docs.google.com/document/d/15V5s-SglLzbtb_fWVumycUl4WmzgvQyI0cOcaErqbQg/edit?tab=t.teozu367vccg#heading=h.io6biqp3n8g",
         };
 
         const destination = redirects[path] || redirects[""];
