@@ -153,8 +153,8 @@ export default {
             // ------------------------------------------
             // Hiring & Jobs
             // ------------------------------------------
-            "/hiring-en":   "https://docs.google.com/document/d/15V5s-SglLzbtb_fWVumycUl4WmzgvQyI0cOcaErqbQg/edit?tab=t.1oo6bt8n8zi4",
-            "/hiring-fa":   "https://docs.google.com/document/d/15V5s-SglLzbtb_fWVumycUl4WmzgvQyI0cOcaErqbQg/edit?tab=t.teozu367vccg#heading=h.io6biqp3n8g",
+            "/hiring-en":   "https://docs.google.com/document/d/15V5s-SglLzbtb_fWVumycUl4WmzgvQyI0cOcaErqbQg/edit?tab=t.1oo6bt8n8zi4#heading=h.s08wc9spm7od",
+            "/hiring-fa":   "https://docs.google.com/document/d/15V5s-SglLzbtb_fWVumycUl4WmzgvQyI0cOcaErqbQg/edit?tab=t.teozu367vccg#heading=h.s08wc9spm7od",
         };
 
         const destination = redirects[path] || redirects[""];
