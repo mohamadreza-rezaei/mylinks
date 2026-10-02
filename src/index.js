@@ -58,8 +58,6 @@ export default {
             "/laramap":  "https://laramap.dev/developer/019a79e4-9cf1-72ef-8541-14eac81d2b8f",
             "/wd":       "https://wonderful.dev/mohamadreza-rezaei",
             "/wonderful": "https://wonderful.dev/mohamadreza-rezaei",
-            "/cur":      "https://cursor.com/@mrezaei",
-            "/cursor":   "https://cursor.com/@mrezaei",
 
             // ------------------------------------------
             // Social Media (Active)
@@ -144,6 +142,13 @@ export default {
             // ------------------------------------------
             "/ailabpro":     "https://looply.one/products/ai-lab-pro",
             "/pgp":     "https://looply.one/products/pgp",
+
+            // ------------------------------------------
+            // AI Tools
+            // ------------------------------------------
+            "/chatgpt":     "https://chatgpt.com/u/mreza_rezaei",
+            "/cur":      "https://cursor.com/@mrezaei",
+            "/cursor":   "https://cursor.com/@mrezaei",
         };
 
         const destination = redirects[path] || redirects[""];
