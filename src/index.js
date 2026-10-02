@@ -1,161 +1,220 @@
+// ============================================
+// REDIRECT CONFIGURATION
+// Edit URLs here when usernames change.
+// No need to update links anywhere else.
+// ============================================
+const redirects = {
+    // Home page (Linktree)
+    "":          "https://linktr.ee/mreza_rezaei",
+
+    // ------------------------------------------
+    // Profile & Resume
+    // ------------------------------------------
+    "/me":       "https://mrezaei.carrd.co",
+    "/bio":      "https://mrezaei.carrd.co",
+    "/carrd":    "https://mrezaei.carrd.co",
+    "/cv":       "https://docs.google.com/document/d/1qcympA-Sd46dEl01L2bKfYl7a7raI9-anosdQvK3lWk/edit?tab=t.3lk1ukcllr8a#heading=h.v15sl87w4bmh",
+    "/resume":   "https://docs.google.com/document/d/1qcympA-Sd46dEl01L2bKfYl7a7raI9-anosdQvK3lWk/edit?tab=t.3lk1ukcllr8a#heading=h.v15sl87w4bmh",
+    "/cv-fa":    "https://docs.google.com/document/d/1qcympA-Sd46dEl01L2bKfYl7a7raI9-anosdQvK3lWk/edit?tab=t.0#heading=h.v15sl87w4bmh",
+    "/resume-fa":   "https://docs.google.com/document/d/1qcympA-Sd46dEl01L2bKfYl7a7raI9-anosdQvK3lWk/edit?tab=t.0#heading=h.v15sl87w4bmh",
+
+    // ------------------------------------------
+    // Portfolio & Work
+    // ------------------------------------------
+    "/web":      "https://mohamadreza.id.ir/",
+    "/port":     "https://mohamadreza.id.ir/",
+    "/site":     "https://mohamadreza.id.ir/",
+    "/work":     "https://builtly.ir",
+    "/builtly":  "https://builtly.ir",
+    "/bl":       "https://builtly.ir",
+    "/crushd":   "https://crushd.ir",
+    "/date":   "https://crushd.ir",
+    "/office":   "https://nshn.ir/03_bv1AxYxuPcT",
+    "/lt":       "https://linktr.ee/mreza_rezaei",
+    "/linktree": "https://linktr.ee/mreza_rezaei",
+    "/kioar":    "https://kioar.com/mreza-rezaei",
+    "/qr":       "https://kioar.com/mreza-rezaei",
+
+    // ------------------------------------------
+    // Developer Profiles
+    // ------------------------------------------
+    "/gh":       "https://github.com/mohamadreza-rezaei",
+    "/git":      "https://github.com/mohamadreza-rezaei",
+    "/github":   "https://github.com/mohamadreza-rezaei",
+    "/gl":       "https://hamgit.ir/mohamadreza_rezaei",
+    "/hamgit":   "https://hamgit.ir/mohamadreza_rezaei",
+    "/gitlab":   "https://hamgit.ir/mohamadreza_rezaei",
+    "/li":       "https://www.linkedin.com/in/mreza-rezaei/",
+    "/linkedin": "https://www.linkedin.com/in/mreza-rezaei/",
+    "/wk":       "https://wakatime.com/@mreza_rezaei",
+    "/waka":     "https://wakatime.com/@mreza_rezaei",
+    "/wakatime": "https://wakatime.com/@mreza_rezaei",
+    "/lm":       "https://laramap.dev/developer/019a79e4-9cf1-72ef-8541-14eac81d2b8f",
+    "/laramap":  "https://laramap.dev/developer/019a79e4-9cf1-72ef-8541-14eac81d2b8f",
+    "/wd":       "https://wonderful.dev/mohamadreza-rezaei",
+    "/wonderful": "https://wonderful.dev/mohamadreza-rezaei",
+
+    // ------------------------------------------
+    // Social Media (Active)
+    // ------------------------------------------
+    "/in":       "https://instagram.com/mreza__rezaei",
+    "/ig":       "https://instagram.com/mreza__rezaei",
+    "/instagram": "https://instagram.com/mreza__rezaei",
+    "/yt":       "https://youtube.com/@mohamadreza_rezaei",
+    "/youtube":  "https://youtube.com/@mohamadreza_rezaei",
+    "/sc":       "https://soundcloud.com/mreza_rezaei",
+    "/soundcloud": "https://soundcloud.com/mreza_rezaei",
+    "/sound":    "https://soundcloud.com/mreza_rezaei",
+
+    // ------------------------------------------
+    // Social Media (Inactive but kept for future)
+    // ------------------------------------------
+    "/x":        "https://x.com/mreze_rezaei",
+    "/tw":       "https://x.com/mreze_rezaei",
+    "/twitter":  "https://x.com/mreze_rezaei",
+    "/tg":       "https://t.me/mreza_rezaei",
+    "/telegram": "https://t.me/mreza_rezaei",
+    "/tk":       "https://www.tiktok.com/@mreza_rezaei",
+    "/tiktok":   "https://www.tiktok.com/@mreza_rezaei",
+    "/dc":       "https://discord.com/invite/b9YRxPv2F",
+    "/discord":  "https://discord.com/invite/b9YRxPv2F",
+    "/tv":       "https://www.twitch.tv/mreza_rezaei",
+    "/twitch":   "https://www.twitch.tv/mreza_rezaei",
+    "/pt":       "https://www.pinterest.com/mreza_rezaei",
+    "/pinterest": "https://www.pinterest.com/mreza_rezaei",
+    "/bale":     "https://t.me/mreza_rezaei",
+    "/ble":      "https://t.me/mreza_rezaei",
+
+    // ------------------------------------------
+    // Gaming Profiles
+    // ------------------------------------------
+    "/play":     "https://my.play/Moham7dreza",
+    "/pl":       "https://my.play/Moham7dreza",
+    "/st":       "https://steamcommunity.com/id/mreza-rezaei",
+    "/steam":    "https://steamcommunity.com/id/mreza-rezaei",
+    "/cr":       "https://link.clashroyale.com/invite/friend/en?tag=9CVGPV&token=m9s87yzk&platform=android&m=0",
+    "/clash":    "https://link.clashroyale.com/invite/friend/en?tag=9CVGPV&token=m9s87yzk&platform=android&m=0",
+    "/royale":   "https://link.clashroyale.com/invite/friend/en?tag=9CVGPV&token=m9s87yzk&platform=android&m=0",
+    "/coc":      "https://link.clashofclans.com/en?action=OpenPlayerProfile&tag=R2G88L9L",
+    "/clans":    "https://link.clashofclans.com/en?action=OpenPlayerProfile&tag=R2G88L9L",
+
+    // ------------------------------------------
+    // Music & Video
+    // ------------------------------------------
+    "/music":    "https://soundcloud.com/young-helic/bob-ross",
+    "/bobross":  "https://soundcloud.com/young-helic/bob-ross",
+    "/vid":      "https://youtu.be/nlBRf1f6HCo?si=k4GaUaGY6JBDL2M-",
+    "/video":    "https://youtu.be/nlBRf1f6HCo?si=k4GaUaGY6JBDL2M-",
+    "/bike":     "https://youtu.be/nlBRf1f6HCo?si=k4GaUaGY6JBDL2M-",
+
+    // ------------------------------------------
+    // Courses
+    // ------------------------------------------
+    "/laravel":    "https://toplearn.com/courses/web/%D8%AF%D9%88%D8%B1%D9%87-%D8%AC%D8%A7%D9%85%D8%B9-%D8%A2%D9%85%D9%88%D8%B2%D8%B4-laravel",
+    "/react":      "https://toplearn.com/courses/web-design/%D8%A2%D9%85%D9%88%D8%B2%D8%B4-%D8%B5%D9%81%D8%B1-%D8%AA%D8%A7-%D8%B5%D8%AF-reactjs",
+
+    // ------------------------------------------
+    // Featured Github Projects
+    // ------------------------------------------
+    "/gh-ai-lab-pro":     "https://github.com/mohamadreza-rezaei/ai-lab-pro",
+
+    // ------------------------------------------
+    // Roadmaps
+    // ------------------------------------------
+    "/mentoring":     "https://atlas.mindmup.com/mentoring/",
+
+    // ------------------------------------------
+    // Demo
+    // ------------------------------------------
+    "/ailab":     "https://ailab.looply.one/",
+    "/dev":     "https://dev.builtly.ir/",
+    "/nitro":     "https://nitro.builtly.ir/",
+    "/ai":     "https://aiarsenal.ir/",
+    "/looply":     "https://looply.one/",
+
+    // ------------------------------------------
+    // products
+    // ------------------------------------------
+    "/ailabpro":     "https://looply.one/products/ai-lab-pro",
+    "/pgp":     "https://looply.one/products/pgp",
+
+    // ------------------------------------------
+    // AI Tools
+    // ------------------------------------------
+    "/chatgpt":     "https://chatgpt.com/u/mreza_rezaei",
+    "/cur":      "https://cursor.com/@mrezaei",
+    "/cursor":   "https://cursor.com/@mrezaei",
+
+    // ------------------------------------------
+    // Hiring & Jobs
+    // ------------------------------------------
+    "/hiring-en":   "https://docs.google.com/document/d/15V5s-SglLzbtb_fWVumycUl4WmzgvQyI0cOcaErqbQg/edit?tab=t.1oo6bt8n8zi4#heading=h.s08wc9spm7od",
+    "/hiring-fa":   "https://docs.google.com/document/d/15V5s-SglLzbtb_fWVumycUl4WmzgvQyI0cOcaErqbQg/edit?tab=t.teozu367vccg#heading=h.s08wc9spm7od",
+};
+
+// Path of the auto-generated page that lists every alias above.
+// Bookmark https://links.mohamadreza.id.ir/links
+const LIST_PATH = "/links";
+
+function escapeHtml(str) {
+    return str
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;");
+}
+
+// Plain, unstyled HTML page: one line per destination,
+// with all of its aliases as <a> links in front of it.
+function renderLinksPage() {
+    // Group aliases that point to the same destination
+    const groups = new Map();
+    for (const [alias, destination] of Object.entries(redirects)) {
+        if (!groups.has(destination)) groups.set(destination, []);
+        groups.get(destination).push(alias === "" ? "/" : alias);
+    }
+
+    const items = [...groups.entries()]
+        .map(([destination, aliases]) => {
+            const aliasLinks = aliases
+                .map((a) => `<a href="${escapeHtml(a)}">${escapeHtml(a)}</a>`)
+                .join(" ");
+            const d = escapeHtml(destination);
+            return `<li>${aliasLinks} &rarr; <a href="${d}">${d}</a></li>`;
+        })
+        .join("\n");
+
+    return `<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>My Links</title>
+</head>
+<body>
+<h1>My Links</h1>
+<ul>
+${items}
+</ul>
+</body>
+</html>`;
+}
+
 export default {
     async fetch(request) {
         const url = new URL(request.url);
         const path = url.pathname.toLowerCase().replace(/\/$/, "");
 
-        // ============================================
-        // REDIRECT CONFIGURATION
-        // Edit URLs here when usernames change.
-        // No need to update links anywhere else.
-        // ============================================
-        const redirects = {
-            // Home page (Linktree)
-            "":          "https://linktr.ee/mreza_rezaei",
-
-            // ------------------------------------------
-            // Profile & Resume
-            // ------------------------------------------
-            "/me":       "https://mrezaei.carrd.co",
-            "/bio":      "https://mrezaei.carrd.co",
-            "/carrd":    "https://mrezaei.carrd.co",
-            "/cv":       "https://docs.google.com/document/d/1qcympA-Sd46dEl01L2bKfYl7a7raI9-anosdQvK3lWk/edit?tab=t.3lk1ukcllr8a#heading=h.v15sl87w4bmh",
-            "/resume":   "https://docs.google.com/document/d/1qcympA-Sd46dEl01L2bKfYl7a7raI9-anosdQvK3lWk/edit?tab=t.3lk1ukcllr8a#heading=h.v15sl87w4bmh",
-            "/cv-fa":    "https://docs.google.com/document/d/1qcympA-Sd46dEl01L2bKfYl7a7raI9-anosdQvK3lWk/edit?tab=t.0#heading=h.v15sl87w4bmh",
-            "/resume-fa":   "https://docs.google.com/document/d/1qcympA-Sd46dEl01L2bKfYl7a7raI9-anosdQvK3lWk/edit?tab=t.0#heading=h.v15sl87w4bmh",
-
-            // ------------------------------------------
-            // Portfolio & Work
-            // ------------------------------------------
-            "/web":      "https://mohamadreza.id.ir/",
-            "/port":     "https://mohamadreza.id.ir/",
-            "/site":     "https://mohamadreza.id.ir/",
-            "/work":     "https://builtly.ir",
-            "/builtly":  "https://builtly.ir",
-            "/bl":       "https://builtly.ir",
-            "/crushd":   "https://crushd.ir",
-            "/date":   "https://crushd.ir",
-            "/office":   "https://nshn.ir/03_bv1AxYxuPcT",
-            "/lt":       "https://linktr.ee/mreza_rezaei",
-            "/linktree": "https://linktr.ee/mreza_rezaei",
-            "/kioar":    "https://kioar.com/mreza-rezaei",
-            "/qr":       "https://kioar.com/mreza-rezaei",
-
-            // ------------------------------------------
-            // Developer Profiles
-            // ------------------------------------------
-            "/gh":       "https://github.com/mohamadreza-rezaei",
-            "/git":      "https://github.com/mohamadreza-rezaei",
-            "/github":   "https://github.com/mohamadreza-rezaei",
-            "/gl":       "https://hamgit.ir/mohamadreza_rezaei",
-            "/hamgit":   "https://hamgit.ir/mohamadreza_rezaei",
-            "/gitlab":   "https://hamgit.ir/mohamadreza_rezaei",
-            "/li":       "https://www.linkedin.com/in/mreza-rezaei/",
-            "/linkedin": "https://www.linkedin.com/in/mreza-rezaei/",
-            "/wk":       "https://wakatime.com/@mreza_rezaei",
-            "/waka":     "https://wakatime.com/@mreza_rezaei",
-            "/wakatime": "https://wakatime.com/@mreza_rezaei",
-            "/lm":       "https://laramap.dev/developer/019a79e4-9cf1-72ef-8541-14eac81d2b8f",
-            "/laramap":  "https://laramap.dev/developer/019a79e4-9cf1-72ef-8541-14eac81d2b8f",
-            "/wd":       "https://wonderful.dev/mohamadreza-rezaei",
-            "/wonderful": "https://wonderful.dev/mohamadreza-rezaei",
-
-            // ------------------------------------------
-            // Social Media (Active)
-            // ------------------------------------------
-            "/in":       "https://instagram.com/mreza__rezaei",
-            "/ig":       "https://instagram.com/mreza__rezaei",
-            "/instagram": "https://instagram.com/mreza__rezaei",
-            "/yt":       "https://youtube.com/@mohamadreza_rezaei",
-            "/youtube":  "https://youtube.com/@mohamadreza_rezaei",
-            "/sc":       "https://soundcloud.com/mreza_rezaei",
-            "/soundcloud": "https://soundcloud.com/mreza_rezaei",
-            "/sound":    "https://soundcloud.com/mreza_rezaei",
-
-            // ------------------------------------------
-            // Social Media (Inactive but kept for future)
-            // ------------------------------------------
-            "/x":        "https://x.com/mreze_rezaei",
-            "/tw":       "https://x.com/mreze_rezaei",
-            "/twitter":  "https://x.com/mreze_rezaei",
-            "/tg":       "https://t.me/mreza_rezaei",
-            "/telegram": "https://t.me/mreza_rezaei",
-            "/tk":       "https://www.tiktok.com/@mreza_rezaei",
-            "/tiktok":   "https://www.tiktok.com/@mreza_rezaei",
-            "/dc":       "https://discord.com/invite/b9YRxPv2F",
-            "/discord":  "https://discord.com/invite/b9YRxPv2F",
-            "/tv":       "https://www.twitch.tv/mreza_rezaei",
-            "/twitch":   "https://www.twitch.tv/mreza_rezaei",
-            "/pt":       "https://www.pinterest.com/mreza_rezaei",
-            "/pinterest": "https://www.pinterest.com/mreza_rezaei",
-            "/bale":     "https://t.me/mreza_rezaei",
-            "/ble":      "https://t.me/mreza_rezaei",
-
-            // ------------------------------------------
-            // Gaming Profiles
-            // ------------------------------------------
-            "/play":     "https://my.play/Moham7dreza",
-            "/pl":       "https://my.play/Moham7dreza",
-            "/st":       "https://steamcommunity.com/id/mreza-rezaei",
-            "/steam":    "https://steamcommunity.com/id/mreza-rezaei",
-            "/cr":       "https://link.clashroyale.com/invite/friend/en?tag=9CVGPV&token=m9s87yzk&platform=android&m=0",
-            "/clash":    "https://link.clashroyale.com/invite/friend/en?tag=9CVGPV&token=m9s87yzk&platform=android&m=0",
-            "/royale":   "https://link.clashroyale.com/invite/friend/en?tag=9CVGPV&token=m9s87yzk&platform=android&m=0",
-            "/coc":      "https://link.clashofclans.com/en?action=OpenPlayerProfile&tag=R2G88L9L",
-            "/clans":    "https://link.clashofclans.com/en?action=OpenPlayerProfile&tag=R2G88L9L",
-
-            // ------------------------------------------
-            // Music & Video
-            // ------------------------------------------
-            "/music":    "https://soundcloud.com/young-helic/bob-ross",
-            "/bobross":  "https://soundcloud.com/young-helic/bob-ross",
-            "/vid":      "https://youtu.be/nlBRf1f6HCo?si=k4GaUaGY6JBDL2M-",
-            "/video":    "https://youtu.be/nlBRf1f6HCo?si=k4GaUaGY6JBDL2M-",
-            "/bike":     "https://youtu.be/nlBRf1f6HCo?si=k4GaUaGY6JBDL2M-",
-
-            // ------------------------------------------
-            // Courses
-            // ------------------------------------------
-            "/laravel":    "https://toplearn.com/courses/web/%D8%AF%D9%88%D8%B1%D9%87-%D8%AC%D8%A7%D9%85%D8%B9-%D8%A2%D9%85%D9%88%D8%B2%D8%B4-laravel",
-            "/react":      "https://toplearn.com/courses/web-design/%D8%A2%D9%85%D9%88%D8%B2%D8%B4-%D8%B5%D9%81%D8%B1-%D8%AA%D8%A7-%D8%B5%D8%AF-reactjs",
-
-            // ------------------------------------------
-            // Featured Github Projects
-            // ------------------------------------------
-            "/gh-ai-lab-pro":     "https://github.com/mohamadreza-rezaei/ai-lab-pro",
-
-            // ------------------------------------------
-            // Roadmaps
-            // ------------------------------------------
-            "/mentoring":     "https://atlas.mindmup.com/mentoring/",
-
-            // ------------------------------------------
-            // Demo
-            // ------------------------------------------
-            "/ailab":     "https://ailab.looply.one/",
-            "/dev":     "https://dev.builtly.ir/",
-            "/nitro":     "https://nitro.builtly.ir/",
-            "/ai":     "https://aiarsenal.ir/",
-            "/looply":     "https://looply.one/",
-
-            // ------------------------------------------
-            // products
-            // ------------------------------------------
-            "/ailabpro":     "https://looply.one/products/ai-lab-pro",
-            "/pgp":     "https://looply.one/products/pgp",
-
-            // ------------------------------------------
-            // AI Tools
-            // ------------------------------------------
-            "/chatgpt":     "https://chatgpt.com/u/mreza_rezaei",
-            "/cur":      "https://cursor.com/@mrezaei",
-            "/cursor":   "https://cursor.com/@mrezaei",
-
-            // ------------------------------------------
-            // Hiring & Jobs
-            // ------------------------------------------
-            "/hiring-en":   "https://docs.google.com/document/d/15V5s-SglLzbtb_fWVumycUl4WmzgvQyI0cOcaErqbQg/edit?tab=t.1oo6bt8n8zi4#heading=h.s08wc9spm7od",
-            "/hiring-fa":   "https://docs.google.com/document/d/15V5s-SglLzbtb_fWVumycUl4WmzgvQyI0cOcaErqbQg/edit?tab=t.teozu367vccg#heading=h.s08wc9spm7od",
-        };
+        // Auto-generated list of all links (always in sync with the config above)
+        if (path === LIST_PATH) {
+            return new Response(renderLinksPage(), {
+                headers: {
+                    "content-type": "text/html; charset=utf-8",
+                    "cache-control": "no-store",
+                },
+            });
+        }
 
         const destination = redirects[path] || redirects[""];
 
