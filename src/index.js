@@ -138,6 +138,12 @@ export default {
             "/nitro":     "https://nitro.builtly.ir/",
             "/ai":     "https://aiarsenal.ir/",
             "/looply":     "https://looply.one/",
+
+            // ------------------------------------------
+            // products
+            // ------------------------------------------
+            "/ailabpro":     "https://looply.one/products/ai-lab-pro",
+            "/pgp":     "https://looply.one/products/pgp",
         };
 
         const destination = redirects[path] || redirects[""];
