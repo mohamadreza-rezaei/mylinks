@@ -1,13 +1,30 @@
-# Mohamadreza Rezaei - Links Redirect Worker
+# mylinks
 
-Cloudflare Worker that handles all my social media and profile redirects from a single config file.
+Cloudflare Worker that redirects personal and social profile links from a single config.
 
-## Live URL
-`https://mylinks.mohamadreza-rezaei.workers.dev/`
+**Live:** https://mylinks.mohamadreza-rezaei.workers.dev/
+
+## Stack
+
+- Cloudflare Workers
+- Wrangler
 
 ## Setup
 
 ```bash
-npm install -g wrangler
-wrangler login
-wrangler deploy
+npm install
+```
+
+## Develop
+
+```bash
+npm run dev
+```
+
+## Deploy
+
+```bash
+npm run deploy
+```
+
+Configure routes and link targets under `src/` and `wrangler.toml`.
